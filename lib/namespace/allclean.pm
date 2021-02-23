@@ -5,7 +5,21 @@ use warnings;
 
 our $VERSION = "0.01";
 
+use B::Hooks::EndOfScope;
+use namespace::clean;
 
+sub import {
+    my ($class, %args) = @_;
+    my $cleanee = exists $args{-cleanee} ? $args{-cleanee} : scalar caller;
+
+    on_scope_end {
+        my $subs = namespace::clean->get_functions($cleanee);
+ 
+        my @clean = keys %$subs;
+ 
+        namespace::clean->clean_subroutines($cleanee, @clean);
+    };
+}
 
 1;
 __END__
