@@ -1,0 +1,7 @@
+name = "namespace-allclean"
+# badges = ["travis-ci.com"]
+authority="cpan:KFLY"
+
+module_maker="ModuleBuildTiny"
+static_install = "auto"
+
