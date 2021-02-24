@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Avoid imports all subroutines into your namespace",
    "author" : [
       "kfly8 <kfly8@cpan.org>"
    ],
@@ -54,6 +54,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kfly8/p5-namespace-allclean/issues"
+      },
+      "homepage" : "https://github.com/kfly8/p5-namespace-allclean",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/kfly8/p5-namespace-allclean.git",
+         "web" : "https://github.com/kfly8/p5-namespace-allclean"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:KFLY",
    "x_serialization_backend" : "JSON::PP version 4.04",
