@@ -44,11 +44,12 @@
          "requires" : {
             "B::Hooks::EndOfScope" : "0.12",
             "namespace::clean" : "0.20",
-            "perl" : "5.008001"
+            "perl" : "5.010001"
          }
       },
       "test" : {
          "requires" : {
+            "Module::Build::Tiny" : "0.035",
             "Test::More" : "0.98"
          }
       }
