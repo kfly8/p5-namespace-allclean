@@ -5,5 +5,6 @@ requires 'B::Hooks::EndOfScope', '0.12';
 
 on 'test' => sub {
     requires 'Test::More', '0.98';
+    requires 'Module::Build::Tiny', 0.035;
 };
 
