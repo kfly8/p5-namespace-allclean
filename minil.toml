@@ -1,5 +1,5 @@
 name = "namespace-allclean"
-# badges = ["travis-ci.com"]
+badges = ['github-actions/test', 'metacpan']
 authority="cpan:KFLY"
 
 module_maker="ModuleBuildTiny"
