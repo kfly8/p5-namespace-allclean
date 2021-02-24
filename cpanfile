@@ -1,4 +1,4 @@
-requires 'perl', '5.008001';
+requires 'perl', '5.010001';
 
 requires 'namespace::clean', '0.20';
 requires 'B::Hooks::EndOfScope', '0.12';
