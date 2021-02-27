@@ -1,5 +1,5 @@
 name = "namespace-allclean"
-badges = ['github-actions/test', 'metacpan']
+badges = ['github-actions/test', 'coveralls', 'metacpan']
 authority="cpan:KFLY"
 
 module_maker="ModuleBuildTiny"
