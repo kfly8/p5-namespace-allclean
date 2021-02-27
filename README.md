@@ -5,12 +5,14 @@ namespace::allclean - Avoid imports all subroutines into your namespace
 
 # SYNOPSIS
 
-    package Foo;
-    use namespace::allclean;
-    sub bar { }
+```perl
+package Foo;
+use namespace::allclean;
+sub bar { }
 
-    # later on:
-    Foo->bar; # will fail. `bar` got cleaned after compilation.
+# later on:
+Foo->bar; # will fail. `bar` got cleaned after compilation.
+```
 
 # DESCRIPTION
 
