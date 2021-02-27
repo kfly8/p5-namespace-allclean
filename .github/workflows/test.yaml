@@ -48,10 +48,10 @@ jobs:
         ./Build test
 
     - name: Run coverage
-        if: ${{ matrix.coverage }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          cpm install -g Devel::Cover::Report::Coveralls
-          cover -test -report coveralls
+      if: ${{ matrix.coverage }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        cpm install -g Devel::Cover::Report::Coveralls
+        cover -test -report coveralls
 
