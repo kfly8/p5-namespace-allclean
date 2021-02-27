@@ -23,7 +23,7 @@ jobs:
           ]
         include:
           - perl: 5.32
-            converage: true
+            coverage: true
     name: Perl ${{ matrix.perl }}
     steps:
     - name: Checkout
