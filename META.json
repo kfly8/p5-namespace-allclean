@@ -68,6 +68,9 @@
    },
    "version" : "0.01",
    "x_authority" : "cpan:KFLY",
+   "x_contributors" : [
+      "kfly8 <kfly@cpan.org>"
+   ],
    "x_serialization_backend" : "JSON::PP version 4.04",
    "x_static_install" : 1
 }
