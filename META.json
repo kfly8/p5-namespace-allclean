@@ -65,10 +65,10 @@
          "web" : "https://github.com/kfly8/p5-namespace-allclean"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_authority" : "cpan:KFLY",
    "x_contributors" : [
-      "kfly8 <kfly@cpan.org>"
+      "kobaken <kfly@cpan.org>"
    ],
    "x_serialization_backend" : "JSON::PP version 4.04",
    "x_static_install" : 1
