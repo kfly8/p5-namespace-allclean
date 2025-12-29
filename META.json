@@ -4,7 +4,7 @@
       "kfly8 <kfly8@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.1.12, CPAN::Meta::Converter version 2.150010",
+   "generated_by" : "Minilla/v3.1.28, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "perl_5"
    ],
@@ -61,15 +61,16 @@
       "homepage" : "https://github.com/kfly8/p5-namespace-allclean",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/kfly8/p5-namespace-allclean.git",
+         "url" : "https://github.com/kfly8/p5-namespace-allclean.git",
          "web" : "https://github.com/kfly8/p5-namespace-allclean"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_authority" : "cpan:KFLY",
    "x_contributors" : [
-      "kobaken <kfly@cpan.org>"
+      "kfly8 <kfly@cpan.org>",
+      "kobaken <kentafly88@gmail.com>"
    ],
-   "x_serialization_backend" : "JSON::PP version 4.04",
+   "x_serialization_backend" : "JSON::PP version 4.16",
    "x_static_install" : 1
 }
